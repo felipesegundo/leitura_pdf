@@ -8,7 +8,7 @@ import pandas as pd
 import re
 
 # Configuração da API da OpenAI
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "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"
 OPENAI_API_URL = "https://api.openai.com/v1/chat/completions"
 
 # Inicializa o DataFrame na sessão com edição ativada
