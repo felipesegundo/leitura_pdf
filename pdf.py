@@ -60,8 +60,8 @@ def extract_text_from_image(image_base64, prompt):
 # Interface da barra lateral
 
 with st.sidebar:
-    image = Image.open(r"C:\Users\20829\Pictures\Screenshots\bemol.png")
-    st.image(image, caption="Imagem carregada", use_container_width=True)
+    #image = Image.open(r"C:\Users\20829\Pictures\Screenshots\bemol.png")
+    #st.image(image, caption="Imagem carregada", use_container_width=True)
     uploaded_file = st.sidebar.file_uploader("Faça o upload de um PDF", type="pdf")
 
     if uploaded_file is not None:
